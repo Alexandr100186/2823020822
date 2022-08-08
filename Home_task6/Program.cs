@@ -4,8 +4,8 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.Write("Введите проверяемое на четность число ");
+Console.Write("Введите проверяемое на четность целое число: ");
 int a = Convert.ToInt32(System.Console.ReadLine());
 
-if(a % 2 == 0) Console.WriteLine("Да");
-else Console.WriteLine("Нет");
+if(a % 2 == 0) Console.WriteLine("Ответ: Да");
+else Console.WriteLine("Ответ: Нет");
