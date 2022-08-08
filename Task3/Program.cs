@@ -16,4 +16,4 @@ Console.Write("Напишите целое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Вывод чисел в промежутке от -N до N: ");
 for (int i = -a; i <= a; i++)
-{Console.Write(i + "");}
+{Console.Write(i + " ");}
