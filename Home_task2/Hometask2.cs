@@ -11,5 +11,5 @@ int b = Convert.ToInt32(System.Console.ReadLine());
 
 if(a == b) Console.WriteLine("Числа равны");
 else
-     if(a > b) Console.WriteLine($"max={a} > min={b}");
-     else Console.WriteLine($"max={b} > min={a}");
+     if(a > b) Console.WriteLine($"max = {a}");
+     else Console.WriteLine($"max = {b}");
