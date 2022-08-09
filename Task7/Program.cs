@@ -6,7 +6,7 @@
 // 918 -> 8
 
 Console.Write("Введите 3-х значное число: ");
-int a = int.Parse(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 
 if (a < 0)
 {
