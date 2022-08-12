@@ -5,3 +5,16 @@
 // 34, 5 -> не кратно, остаток 4
 // 16, 4 -> кратно
 
+Console.Write("Введите число 1: ");
+int num1 = int.Parse(Console.ReadLine());
+Console.Write("Введите число 2, не равное 0: ");
+int num2 = int.Parse(Console.ReadLine());
+int res = num1 % num2;
+if (res == 0)
+{
+    Console.Write("Кратно ");
+}
+else
+{
+    Console.Write($"Не кратно, остаток: {res} ");
+}
