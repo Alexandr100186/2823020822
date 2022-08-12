@@ -6,9 +6,9 @@
 // 16, 4 -> кратно
 
 Console.Write("Введите число 1: ");
-int num1 = int.Parse(Console.ReadLine());
+int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число 2, не равное 0: ");
-int num2 = int.Parse(Console.ReadLine());
+int num2 = Convert.ToInt32(Console.ReadLine());
 int res = num1 % num2;
 if (res == 0)
 {
