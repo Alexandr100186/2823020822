@@ -4,3 +4,19 @@
 // 7 -> да
 // 1 -> нет
 
+// 3. Напишите программу, которая будет выдавать
+// название дня недели по заданному номеру.
+// 3 -> Среда
+// 5 -> Пятница
+
+Console.Write("Введите номер проверяемого дня недели на выходной: ");
+int a = Convert.ToInt32(System.Console.ReadLine());
+
+if (a > 0 && a < 8)
+{
+    if (a == 6 || a == 7) System.Console.WriteLine("Да"); 
+    else System.Console.WriteLine("Нет"); 
+}else
+{
+    System.Console.WriteLine("Число вне диапазона от 1 до 7");
+}
