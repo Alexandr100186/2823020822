@@ -17,6 +17,11 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 double result = Math.Sqrt((x2 - x1)*(x2 - x1)+(y2 - y1)*(y2 - y1));
 Console.WriteLine("Расстояние между точками равно: {0: #.##}", result);
 
+// Округление вывода:
+
+// double d = 5.099254354;
+// System.Console.WriteLine(Math.Round(d, 2,MidpointRounding.ToZero));
+
 // Через метод
 // double Distance(int xc1, int yc1, int xc2, int yc2)
 // {
