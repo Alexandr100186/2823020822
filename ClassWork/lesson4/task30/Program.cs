@@ -8,7 +8,7 @@ void MasRandom(int[] array)
     Random rmd = new Random();
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = rmd.Next(0, 2);
+        array[i] = rmd.Next(0, 100);
     }
 }
 
