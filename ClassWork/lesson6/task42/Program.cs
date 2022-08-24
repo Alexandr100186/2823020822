@@ -5,15 +5,24 @@
 // 2 -> 10
 
 Console.WriteLine("Введите целое положительное число: ");
-int num = Convert.ToInt32(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
-int result = 0;
-int mult = 1;
-while(num > 0)
+// int result = 0;
+// int mult = 1;
+// while(number > 0)
+// {
+// result += number % 2 * mult;
+// number = number / 2;
+// mult *= 10;
+// }
+
+// Console.WriteLine(result);
+
+//через рекурсию
+void DecToBin(int num)
 {
-result += num % 2 * mult;
-num = num / 2;
-mult *= 10;
+    if(num == 0) return;
+    DecToBin(num / 2);
+    Console.Write(num % 2);
 }
-
-Console.WriteLine(result);
+DecToBin(number);
