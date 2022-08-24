@@ -17,7 +17,7 @@ int RandomNumbers(int numberElements, int min, int max)
         randomNumbers[i] = new Random().Next(min, max);
         if (i < randomNumbers.Length - 1) Console.Write($"{randomNumbers[i]}, ");
         else Console.Write(randomNumbers[i]);
-        if (i % 2 != 1)
+        if (i % 2 == 0)
         {
             sumElements = sumElements + randomNumbers[i];
         }
@@ -26,4 +26,4 @@ int RandomNumbers(int numberElements, int min, int max)
     return sumElements;
 }
 int randomNumbers = RandomNumbers(numberElements, 1, 10);
-Console.WriteLine($"\nСумма элементов, расположенных в нечетных индексах: {randomNumbers}");
+Console.WriteLine($"\nСумма элементов, расположенных в четных индексах: {randomNumbers}");
