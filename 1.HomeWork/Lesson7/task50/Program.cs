@@ -25,7 +25,7 @@ void FillMatrixRandomNumbers(int[,] matrix)
     }
 }
 
-void PrintMatrixSearchElemPos(int[,] matrix)
+void PrintMatrix(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
@@ -49,5 +49,5 @@ void MatrixSearchElementPos(int[,] matrix)
 }
 
 FillMatrixRandomNumbers(numbers);
-PrintMatrixSearchElemPos(numbers);
+PrintMatrix(numbers);
 MatrixSearchElementPos(numbers);
