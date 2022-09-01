@@ -2,21 +2,6 @@
 // 0, 7, 8, -2, -2 -> 2
 // -1, -7, 567, 89, 223-> 3
 
-
-// Console.Write("Введите целые числа через пробел: ");
-// int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-// int count = 0;
- 
-// for (int i = 0; i < arr.Length; i++)
-// {
-//     if (arr[i] > 0)
-//     {
-//         count++;
-//     }
-// }
-  
-// Console.WriteLine($"Больше 0: {count} чисел");
-
 Console.Write($"Введи число М(количество чисел): ");
 int m = Convert.ToInt32(Console.ReadLine());
 int[] massiveNumbers = new int[m];
@@ -43,3 +28,18 @@ int Comparison(int[] massiveNumbers)
 InputNumbers(m);
 
 Console.WriteLine($"Введено чисел больше 0: {Comparison(massiveNumbers)} ");
+
+// Console.Write("Введите целые числа через пробел: ");
+// int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+// int count = 0;
+ 
+// for (int i = 0; i < arr.Length; i++)
+// {
+//     if (arr[i] > 0)
+//     {
+//         count++;
+//     }
+// }
+  
+// Console.WriteLine($"Больше 0: {count} чисел");
+
